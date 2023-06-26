@@ -1,6 +1,5 @@
 #!/bin/bash
 
-go env -w GO111MODULE=off
 check_install() {
         if ! command -v $1 &> /dev/null; then
                 echo "$1 is not installed. Installing..."
